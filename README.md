@@ -6,11 +6,11 @@
 docker build -t qwop/orcl .
 ```
 # 使用方法
-[ ]官网下载安装文件 [Oracle site](http://www.oracle.com/technetwork/database/in-memory/downloads/index.html) 
+* 官网下载安装文件 [Oracle site](http://www.oracle.com/technetwork/database/in-memory/downloads/index.html) 
 	``linux.x64_11gR2_database_1of2.zip``
 	``linux.x64_11gR2_database_2of2.zip``
-[ ]解压到安装目录 **install_folder**.
-[ ]执行下面命令安装和创建数据库:
+* 解压到安装目录 **install_folder**.
+* 执行下面命令安装和创建数据库:
 
 ```sh
 docker run --privileged --name orcl -p 1521:1521 -v <install_folder>:/install qwop/orcl
