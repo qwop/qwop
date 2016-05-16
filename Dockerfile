@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER jaspeen
+MAINTAINER qwop
 
 ADD assets /assets
 
